@@ -1,10 +1,11 @@
 
-body{
-  color: #616161;
-}
-   a{
-     color: #5c6bc0;
-     margin-left: 22px;
+  body{
+    color: #616161;
+  }
+
+  a{
+    color: #5c6bc0;
+    margin-left: 22px;
    }
    a:hover{
      color: #c5cae9;
@@ -38,7 +39,7 @@ body{
      margin-left: 4px; */
    }
    #inner-dropdown .collapsible-header{
-     padding-left: 28px;
+     padding-left: 34px;
      box-shadow: none;
      border-left: 0px solid transparent;
      border-right: 0px solid transparent;
@@ -55,7 +56,7 @@ body{
    }
 
    .sub-item{
-     margin-left: 14px;
+     margin-left: 24px;
      margin-top: 4px;
    }
 

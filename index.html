@@ -1,159 +1,152 @@
 <!DOCTYPE html>
- <html>
-   <head>
-     <!--Import Google Icon Font-->
-     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<html>
+  <head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
      <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
     <link rel="stylesheet" href="style.css">
-
      <!--Let browser know website is optimized for mobile-->
-     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
 
+  <body>
+    <div class="row">
+      <div class="col m4 s12">
+        <h4 style="margin-left: 14px; color: #1976d2">Nordic Naturals FAQs</h4>
+        <div class="input-field">
+          <i class="material-icons prefix">search</i>
+          <input id="icon_prefix" type="text" class="validate">
+          <label for="icon_prefix">Search FAQs</label>
+        </div>
 
-   </head>
+        <ul class="collapsible expandable">
+          <li>
+            <div class="collapsible-header" style="background-color: #fafafa;"><i class="material-icons">folder</i>
+              Products
+            </div>
+            <div class="collapsible-body">
+              <ul class="collapsible" id="inner-dropdown">
+                <li>
+                  <div class="collapsible-header" style="border-left: 3px solid #fff9c4; margin-top: 1px; margin-bottom: 1px;">
+                    🐟 Omega-3s
+                  </div>
+                  <div class="collapsible-body">
+                    <ul class="nested-ul">
+                      <li class="sub-item"><a href="#!">Product</a></li>
+                      <li class="sub-item"><a href="#!">Product</a></li>
+                      <li class="sub-item"><a href="#!">Product</a></li>
+                      <li class="sub-item"><a href="#!">Product</a></li>
+                      <li class="sub-item"><a href="#!">Product</a></li>
+                      <li class="sub-item"><a href="#!">Product</a></li>
+                    </ul>
+                  </div>
+                </li>
 
-   <body>
-     <!-- <div class="container"> -->
-     <div class="row">
-       <div class="col l12">
-         <h4 style="margin-left: 14px; color: #1976d2">Nordic Naturals FAQs</h4>
+                <li>
+                  <div class="collapsible-header" style="border-left: 3px solid #f8bbd0; margin-top: 1px; margin-bottom: 1px;">
+                    🥥 Probiotics
+                  </div>
+                  <div class="collapsible-body">
+                    <ul class="nested-ul">
+                      <li class="sub-item"><a href="#!">Product</a></li>
+                      <li class="sub-item"><a href="#!">Product</a></li>
+                      <li class="sub-item"><a href="#!">Product</a></li>
+                      <li class="sub-item"><a href="#!">Product</a></li>
+                      <li class="sub-item"><a href="#!">Product</a></li>
+                      <li class="sub-item"><a href="#!">Product</a></li>
+                    </ul>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="collapsible-header" style="border-left: 3px solid #c8e6c9; margin-top: 1px; margin-bottom: 1px;">
+                    🥦 Vitamins & More
+                  </div>
+                  <div class="collapsible-body">
+                    <ul class="nested-ul">
+                      <li><a href="#!">Product</a></li>
+                      <li><a href="#!">Product</a></li>
+                      <li><a href="#!">Product</a></li>
+                      <li><a href="#!">Product</a></li>
+                      <li><a href="#!">Product</a></li>
+                      <li><a href="#!">Product</a></li>
+                    </ul>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="collapsible-header" style="border-left: 3px solid #ffe0b2; margin-top: 1px; margin-bottom: 1px;">
+                    🍒 Gummies
+                  </div>
+                  <div class="collapsible-body">
+                    <ul class="nested-ul">
+                      <li><a href="#!">Product</a></li>
+                      <li><a href="#!">Product</a></li>
+                      <li><a href="#!">Product</a></li>
+                      <li><a href="#!">Product</a></li>
+                      <li><a href="#!">Product</a></li>
+                      <li><a href="#!">Product</a></li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </li>
+
+          <li>
+            <div class="collapsible-header" style="background-color: #f5f5f5;"><i class="material-icons">local_pharmacy</i>
+              Ingredients
+            </div>
+            <div class="collapsible-body">
+              <ul>
+                <li><a href="#!">Ingredient</a></li>
+                <li><a href="#!">Ingredient</a></li>
+                <li><a href="#!">Ingredient</a></li>
+                <li><a href="#!">Ingredient</a></li>
+                <li><a href="#!">Ingredient</a></li>
+              </ul>
+            </div>
+          </li>
+
+          <li>
+            <div class="collapsible-header" style="background-color: #fafafa"><i class="material-icons">directions_run</i>
+              Actives
+            </div>
+            <div class="collapsible-body">
+              <ul>
+                <li><a href="#!">Active</a></li>
+                <li><a href="#!">Active</a></li>
+                <li><a href="#!">Active</a></li>
+                <li><a href="#!">Active</a></li>
+                <li><a href="#!">Active</a></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
       </div>
-      <!-- <div class="col l8">
-        <a href="#" >link</a>
-      </div> -->
-     </div>
 
+      <div class="col m8 s12">
+        <div class="card-panel" style="background-color: #fffde7;">
+          <span class="blue-text text-darken-2">
+            Update: [product / faq / ingredient / etc..]
+          </span>
+          <a class="waves-effect waves-blue btn-flat right" style="margin-top: -6px;"><i class="material-icons">check</i></a>
+          <p>[what changed what changed what changed what changed what changed what changed what changed what changed what changed]</p>
+        </div>
 
+        <div class="card-panel" style="background-color: #fffde7;">
+          <span class="blue-text text-darken-2">
+            Update: [product / faq / ingredient / etc..]
+          </span>
+          <a class="waves-effect waves-blue btn-flat right" style="margin-top: -6px;"><i class="material-icons">check</i></a>
+          <p>[what changed what changed what changed what changed what changed what changed what changed what changed what changed]</p>
+        </div>
+      </div>
+    </div>
 
-     <!-- </div> -->
-     <!-- <div class="container"> -->
-       <div class="row">
-         <div class="col m4 s12">
-           <div class="input-field">
-             <i class="material-icons prefix">search</i>
-             <input id="icon_prefix" type="text" class="validate">
-             <label for="icon_prefix">Search FAQs</label>
-          </div>
-
-
-           <ul class="collapsible expandable">
-              <li>
-                <div class="collapsible-header" style="background-color: #fafafa;"><i class="material-icons">folder</i>Products</div>
-                <div class="collapsible-body">
-
-                  <ul class="collapsible" id="inner-dropdown">
-                    <li>
-                      <div class="collapsible-header" style="background-color: #fff9c4; margin-top: 1px; margin-bottom: 1px;">🐟 Omega-3s</div>
-                      <div class="collapsible-body">
-                        <ul class="nested-ul">
-                          <li class="sub-item"><a href="#!">Product</a></li>
-                          <li class="sub-item"><a href="#!">Product</a></li>
-                          <li class="sub-item"><a href="#!">Product</a></li>
-                          <li class="sub-item"><a href="#!">Product</a></li>
-                          <li class="sub-item"><a href="#!">Product</a></li>
-                          <li class="sub-item"><a href="#!">Product</a></li>
-                        </ul>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="collapsible-header" style="background-color: #f8bbd0; margin-top: 1px; margin-bottom: 1px;">🥥 Probiotics</div>
-                      <div class="collapsible-body">
-                        <ul class="nested-ul">
-                          <li class="sub-item"><a href="#!">Product</a></li>
-                          <li class="sub-item"><a href="#!">Product</a></li>
-                          <li class="sub-item"><a href="#!">Product</a></li>
-                          <li class="sub-item"><a href="#!">Product</a></li>
-                          <li class="sub-item"><a href="#!">Product</a></li>
-                          <li class="sub-item"><a href="#!">Product</a></li>
-                        </ul>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="collapsible-header" style="background-color: #c8e6c9; margin-top: 1px; margin-bottom: 1px;">🥦 Vitamins & More</div>
-                      <div class="collapsible-body">
-                        <ul class="nested-ul">
-                          <li><a href="#!">Product</a></li>
-                          <li><a href="#!">Product</a></li>
-                          <li><a href="#!">Product</a></li>
-                          <li><a href="#!">Product</a></li>
-                          <li><a href="#!">Product</a></li>
-                          <li><a href="#!">Product</a></li>
-                        </ul>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="collapsible-header" style="background-color: #ffe0b2; margin-top: 1px; margin-bottom: 1px;">🍒 Gummies</div>
-                      <div class="collapsible-body">
-                        <ul class="nested-ul">
-                          <li><a href="#!">Product</a></li>
-                          <li><a href="#!">Product</a></li>
-                          <li><a href="#!">Product</a></li>
-                          <li><a href="#!">Product</a></li>
-                          <li><a href="#!">Product</a></li>
-                          <li><a href="#!">Product</a></li>
-                        </ul>
-                      </div>
-                    </li>
-                  </ul>
-
-                </div>
-              </li>
-              <li>
-                <div class="collapsible-header" style="background-color: #f5f5f5;"><i class="material-icons">local_pharmacy</i>Ingredients</div>
-                <div class="collapsible-body">
-                  <ul>
-                    <li><a href="#!">Ingredient</a></li>
-                    <li><a href="#!">Ingredient</a></li>
-                    <li><a href="#!">Ingredient</a></li>
-                    <li><a href="#!">Ingredient</a></li>
-                    <li><a href="#!">Ingredient</a></li>
-                  </ul>
-                </div>
-              </li>
-              <li>
-                <div class="collapsible-header" style="background-color: #fafafa"><i class="material-icons">directions_run</i>Actives</div>
-                <div class="collapsible-body">
-                  <ul>
-                    <li><a href="#!">Active</a></li>
-                    <li><a href="#!">Active</a></li>
-                    <li><a href="#!">Active</a></li>
-                    <li><a href="#!">Active</a></li>
-                    <li><a href="#!">Active</a></li>
-
-                  </ul>
-                </div>
-              </li>
-            </ul>
-         </div>
-         <div class="col s8">
-
-
-
-           <div class="card-panel" style="background-color: #fff59d;">
-             <span class="blue-text text-darken-2">
-               Update: [product / faq / ingredient / etc..]
-             </span>
-             <a class="waves-effect waves-blue btn-flat right" style="margin-top: -6px;"><i class="material-icons">check</i></a>
-             <p>[what changed what changed what changed what changed what changed what changed what changed what changed what changed]</p>
-           </div>
-
-           <div class="card-panel" style="background-color: #fff59d;">
-             <span class="blue-text text-darken-2">
-               Update: [product / faq / ingredient / etc..]
-             </span>
-             <a class="waves-effect waves-blue btn-flat right" style="margin-top: -6px;"><i class="material-icons">check</i></a>
-             <p>[what changed what changed what changed what changed what changed what changed what changed what changed what changed]</p>
-           </div>
-
-         </div>
-       </div>
-     <!-- </div> -->
-
-     <!--JavaScript at end of body for optimized loading-->
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
-
-     <script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    <script>
       var elem = document.querySelector('.collapsible.expandable');
       var instance = M.Collapsible.init(elem, {
         accordion: false
@@ -161,8 +154,6 @@
 
       var dd = document.getElementById('inner-dropdown');
       var ddInstance = M.Collapsible.init(dd);
-
-
-     </script>
-   </body>
- </html>
+    </script>
+  </body>
+</html>
