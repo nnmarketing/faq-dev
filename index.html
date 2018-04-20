@@ -99,19 +99,49 @@
               Ingredients
             </div>
             <div class="collapsible-body">
-              <ul>
-                <li><a href="#!">Ingredient</a></li>
-                <li><a href="#!">Ingredient</a></li>
-                <li><a href="#!">Ingredient</a></li>
-                <li><a href="#!">Ingredient</a></li>
-                <li><a href="#!">Ingredient</a></li>
+              <ul class="collapsible" id="inner-dropdown-ingredients">
+                <li>
+                  <div class="collapsible-header" style="border-left: 3px solid #b2ebf2; margin-top: 1px; margin-bottom: 1px;">
+                    Actives
+                  </div>
+                  <div class="collapsible-body">
+                    <ul class="nested-ul">
+                      <li class="sub-item"><a href="#!">Product</a></li>
+                      <li class="sub-item"><a href="#!">Product</a></li>
+                      <li class="sub-item"><a href="#!">Product</a></li>
+                      <li class="sub-item"><a href="#!">Product</a></li>
+                      <li class="sub-item"><a href="#!">Product</a></li>
+                      <li class="sub-item"><a href="#!">Product</a></li>
+                    </ul>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="collapsible-header" style="border-left: 3px solid #ffccbc; margin-top: 1px; margin-bottom: 1px;">
+                    Ingredients
+                  </div>
+                  <div class="collapsible-body">
+                    <ul class="nested-ul">
+                      <li class="sub-item"><a href="#!">Product</a></li>
+                      <li class="sub-item"><a href="#!">Product</a></li>
+                      <li class="sub-item"><a href="#!">Product</a></li>
+                      <li class="sub-item"><a href="#!">Product</a></li>
+                      <li class="sub-item"><a href="#!">Product</a></li>
+                      <li class="sub-item"><a href="#!">Product</a></li>
+                    </ul>
+                  </div>
+                </li>
+
+
+
+
               </ul>
             </div>
           </li>
 
           <li>
-            <div class="collapsible-header" style="background-color: #fafafa"><i class="material-icons">directions_run</i>
-              Actives
+            <div class="collapsible-header" style="background-color: #fafafa"><i class="material-icons">folder_special</i>
+              Bulks
             </div>
             <div class="collapsible-body">
               <ul>
@@ -154,6 +184,9 @@
 
       var dd = document.getElementById('inner-dropdown');
       var ddInstance = M.Collapsible.init(dd);
+
+      var ll = document.getElementById('inner-dropdown-ingredients');
+      var llInstance = M.Collapsible.init(ll);
     </script>
   </body>
 </html>

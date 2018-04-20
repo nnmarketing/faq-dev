@@ -28,7 +28,7 @@
 
 
 
-   #inner-dropdown{
+   #inner-dropdown, #inner-dropdown-ingredients{
      /* border: 0px solid transparent; */
      box-shadow: none;
      border-left: 0px solid transparent;
