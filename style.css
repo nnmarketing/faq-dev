@@ -26,7 +26,27 @@
      margin-left: 14px;
    }
 
+   hr{
+     margin-top: 28px;
+     margin-bottom: 28px;
 
+   }
+
+   .faq-item{
+     border: 1px solid #bdbdbd;
+     border-radius: 3px;
+     padding-left: 6px;
+     margin-bottom: 8px;
+   }
+
+   .thumbnail{
+     width: 140px;
+     height: 140px;
+     padding: 3px;
+     margin: 3px;
+     border-radius: 3px;
+     border: 2px solid #bdbdbd;
+   }
 
    #inner-dropdown, #inner-dropdown-ingredients{
      /* border: 0px solid transparent; */
